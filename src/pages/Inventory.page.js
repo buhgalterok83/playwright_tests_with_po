@@ -1,5 +1,6 @@
 const { BaseSwagLabPage } = require('./BaseSwagLab.page');
 
+// eslint-disable-next-line import/prefer-default-export
 export class InventoryPage extends BaseSwagLabPage {
     url = '/inventory.html';
 
